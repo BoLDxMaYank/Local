@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RawRakakap Landing Page</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .container {
+            background-color: black ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .content {
+            text-align: center;
+            background-color: #231f20;
+            border-radius: 8px;
+            padding: 0px 30px 30px 30px;
+        }
+
+        .logo {
+            width: 180px;
+            height: 230px;
+        }
+
+        h1{
+            color: white;
+            margin-top: -30px;
+        } 
+        
+        p {
+            margin-top: 5px;
+            margin-bottom: 20px;
+            color: white;
+            font-size: large;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input[type="email"] {
+            border: none;
+            padding: 0.5rem;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            border: none;
+            padding: 0.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: wheat;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="/raw rkakap logo black.png" alt="Logo" class="logo">
+            <h1>Coming Soon!</h1>
+            <p>We're working hard to bring something amazing. Stay tuned!</p>
+            <form id="notify-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Notify Me</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
